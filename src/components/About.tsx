@@ -51,10 +51,10 @@ export default function About() {
                         Why <span className="gradient-text">Hire Me</span>
                     </h2>
                     <p className="text-lg text-surface-600 dark:text-surface-400 leading-relaxed">
-                        Detail-oriented Software Test Engineer with <strong className="text-surface-800 dark:text-surface-200">3.7 years of experience</strong> in
-                        automation, manual, and performance testing for gaming and analytics platforms. I don't just find bugs — I build
-                        quality into every release cycle through strategic test planning, scalable automation frameworks, and data-driven
-                        performance insights.
+                        Detail-oriented Software Test Engineer with <strong className="text-surface-800 dark:text-surface-200">4 years of experience</strong> in
+                        automation, manual, and performance testing for gaming and analytics platforms. Proficient in Selenium (Java),
+                        Playwright (JavaScript), Gatling, TestNG, and BDD frameworks. I don't just find bugs — I build quality into every
+                        release cycle through strategic test planning, scalable automation frameworks, and data-driven performance insights.
                     </p>
                 </div>
 

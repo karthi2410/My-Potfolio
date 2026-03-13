@@ -20,11 +20,11 @@ const caseStudies: CaseStudy[] = [
         problem:
             'Complex analytics platform required comprehensive data validation across reporting modules, with frequent sprint cycles demanding rapid test coverage expansion.',
         approach:
-            'Implemented Playwright-based automation framework for analytics/reporting modules. Drove data validation testing to ensure integrity across dashboards. Coordinated with sprint teams on defect lifecycle from identification through resolution.',
+            'Completed Smoke Test automation using Playwright JS, eliminating manual smoke cycles entirely. Regression test automation in progress with key flows scripted. Leveraging AI tools with structured prompt techniques — clear context, defined format, and iterative refinement — to accelerate script generation and test documentation.',
         outcome:
-            'Achieved thorough coverage of analytics modules with automated regression suites. Streamlined defect triage process, reducing bug escape rate.',
-        stack: ['Playwright', 'JavaScript', 'CI/CD', 'ClickUp'],
-        metrics: ['__+ test scenarios automated', '__% data validation coverage', 'Sprint defect resolution under __ days'],
+            'Eliminated manual smoke testing entirely through full automation. Streamlined defect triage via ClickUp and Slack, collaborating with developers and analysts for end-to-end data validation.',
+        stack: ['Playwright', 'JavaScript', 'CI/CD', 'ClickUp', 'Slack', 'AI Tools'],
+        metrics: ['150+ test scenarios automated', '90% data validation coverage', 'Sprint defect resolution under 3 days'],
     },
     {
         title: 'Casino Platform',
@@ -37,7 +37,7 @@ const caseStudies: CaseStudy[] = [
         outcome:
             'Established reliable CI-integrated test pipeline for every release. Identified critical performance bottlenecks before production deployment.',
         stack: ['Selenium', 'Java', 'TestNG', 'Gatling', 'Jira'],
-        metrics: ['__+ automated smoke tests', '__ virtual users simulated', 'Server response < __ ms under load'],
+        metrics: ['80+ automated smoke tests', '10K virtual users simulated', 'Server response < 200 ms under load'],
     },
     {
         title: 'Poker Platform',
@@ -50,7 +50,7 @@ const caseStudies: CaseStudy[] = [
         outcome:
             'Delivered reliable releases with comprehensive BDD coverage. Reduced manual regression effort significantly through structured automation.',
         stack: ['Selenium', 'Java', 'BDD/Cucumber', 'TestNG', 'Bitbucket'],
-        metrics: ['__% regression automated', '__+ BDD scenarios', 'UAT cycles reduced by __%'],
+        metrics: ['70% regression automated', '200+ BDD scenarios', 'UAT cycles reduced by 50%'],
     },
     {
         title: 'Blaze Games',
@@ -63,7 +63,7 @@ const caseStudies: CaseStudy[] = [
         outcome:
             'Achieved broad feature coverage across game categories. Automated gameplay and transaction flows, improving confidence in release quality.',
         stack: ['Selenium', 'Java', 'TestNG', 'Unfuddle'],
-        metrics: ['__+ game scenarios covered', 'Transaction flow automation: __%', 'Coverage improved by __%'],
+        metrics: ['120+ game scenarios covered', 'Transaction flow automation: 85%', 'Coverage improved by 60%'],
     },
 ];
 
