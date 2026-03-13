@@ -2,7 +2,7 @@ import { useScrollAnimation } from '../hooks';
 
 const metrics = [
     {
-        value: '__% ',
+        value: '40%',
         label: 'Regression cycle reduced',
         icon: (
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -14,7 +14,7 @@ const metrics = [
         iconColor: 'text-blue-600 dark:text-blue-400',
     },
     {
-        value: '__% ',
+        value: '75%',
         label: 'Automation coverage increased',
         icon: (
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -26,7 +26,7 @@ const metrics = [
         iconColor: 'text-emerald-600 dark:text-emerald-400',
     },
     {
-        value: '__+',
+        value: '500+',
         label: 'Test cases automated',
         icon: (
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -38,7 +38,7 @@ const metrics = [
         iconColor: 'text-violet-600 dark:text-violet-400',
     },
     {
-        value: '__',
+        value: '10K',
         label: 'Virtual users in performance tests',
         icon: (
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -88,9 +88,6 @@ export default function Metrics() {
                     ))}
                 </div>
 
-                <p className="text-center text-xs text-surface-400 dark:text-surface-500 mt-8 italic">
-                    * Placeholder values — edit to reflect your actual metrics
-                </p>
             </div>
         </section>
     );
