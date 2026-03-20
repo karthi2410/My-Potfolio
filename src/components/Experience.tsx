@@ -20,10 +20,10 @@ const caseStudies: CaseStudy[] = [
         problem:
             'Complex analytics platform required comprehensive data validation across reporting modules, with frequent sprint cycles demanding rapid test coverage expansion.',
         approach:
-            'Completed Smoke Test automation using Playwright JS, eliminating manual smoke cycles entirely. Regression test automation in progress with key flows scripted. Leveraging AI tools with structured prompt techniques — clear context, defined format, and iterative refinement — to accelerate script generation and test documentation.',
+            'Completed both smoke and regression test automation using Playwright JS, eliminating manual test cycles entirely. Containerized the test suite with Docker for consistent execution across environments. Integrated Slack for automated test report delivery to the team. Leveraging AI tools with structured prompt techniques — clear context, defined format, and iterative refinement — to accelerate script generation and test documentation.',
         outcome:
-            'Eliminated manual smoke testing entirely through full automation. Streamlined defect triage via ClickUp and Slack, collaborating with developers and analysts for end-to-end data validation.',
-        stack: ['Playwright', 'JavaScript', 'CI/CD', 'ClickUp', 'Slack', 'AI Tools'],
+            'Eliminated manual smoke and regression testing through full automation. Dockerized test execution ensures environment consistency. Slack-integrated reporting provides instant visibility into test results for the entire team.',
+        stack: ['Playwright', 'JavaScript', 'Docker', 'Slack', 'CI/CD', 'ClickUp', 'AI Tools'],
         metrics: ['150+ test scenarios automated', '90% data validation coverage', 'Sprint defect resolution under 3 days'],
     },
     {
